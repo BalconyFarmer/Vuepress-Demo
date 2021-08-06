@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Adroi媒体API 接口文档',  // 设置网站标题
     description: 'Adroi',
-    base: '/vuepressDemo/dist/',
+    base: '/vuepressDemo/',
     themeConfig: {
         //配置顶部导航栏
         nav: [
