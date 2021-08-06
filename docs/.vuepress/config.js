@@ -1,28 +1,30 @@
 module.exports = {
     title: 'Adroi媒体API 接口文档',  // 设置网站标题
-    description : 'Adroi',
-    base : '/v1/adroi-h5/adroiapi/',
-    themeConfig : {
+    description: 'Adroi',
+    base: '/',
+    themeConfig: {
+        //配置顶部导航栏
         nav: [
-            {text: '首页', link: '/'},
-            {text: '前端文档', link: '/guide/'},
-            {text: '组件库', link: '/component/'},
-            {text: '问题库', link: '/issues/'},
+            {
+                text: '首页',
+                link: '/'
+            },
+            {
+                text: '组件',
+                link: '/comps/'
+            },
+            {
+                text: '测试',
+                link: '/comps1/'
+            },
         ],
-        sidebar: {
-            '/guide/': [
-                '',     /* /foo/ */
-                'environment',  /* /部署环境安装 */
-                'publishment'  /* /部署环境安装 */
-            ],
-
-            '/component/': [
-                ''      /* /bar/ */
-            ],
-            '/issuse/': [
-                ''      /* /bar/ */
-            ]
+        //配置组件页文档的侧边栏
+        sidebar: { // 配置侧边栏部分
+            '/comps/': ['/comps/', '/comps/select.md'],
+            '/comps1/': ['/comps1/', '/comps1/comps1Fist.md']
         },
-        displayAllHeaders: false // 默认值：false
-    }
+
+        displayAllHeaders: true // 默认值：false
+    },
+
 }
