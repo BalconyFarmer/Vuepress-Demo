@@ -30,5 +30,10 @@ module.exports = {
 
         displayAllHeaders: true // 默认值：false
     },
-
+    markdown: {
+        // ......
+        extendMarkdown: md => {
+            md.use(require("markdown-it-disable-url-encode"));
+        }
+    }
 }
