@@ -30,6 +30,8 @@ module.exports = {
 
         displayAllHeaders: true // 默认值：false
     },
+
+    // https://segmentfault.com/a/1190000022275001
     markdown: {
         // ......
         extendMarkdown: md => {
