@@ -25,6 +25,7 @@ module.exports = {
             '/comps1/': [
                 { title: 'Ubuntu18.04安装MySQL',path:'/comps1/UbuntuMySQL/UbuntuMySQL.md'},
                 { title: 'vue打包发布到Nginx',path:'/comps1/vue打包发布到Nginx/vue打包发布到Nginx.md'},
+                { title: 'nginx_java环境安装',path:'/comps1/nginx_java环境安装/nginx_java环境安装.md'},
             ]
         },
 
