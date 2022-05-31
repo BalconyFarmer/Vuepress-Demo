@@ -2,7 +2,7 @@
 
 通过写xx.md的方式发布文档博客
 
-![](G:\2-我的项目\0-my\vuepressDemo\docs\README.assets\微信截图_20220531153814-1653982961487.png)
+<img src="README.assets/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20220531153814-1653983175563.png" style="zoom:75%;" />
 
 # 参考博客:
 
